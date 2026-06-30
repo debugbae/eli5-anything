@@ -50,6 +50,24 @@ certain doors, while a manager badge opens more.
 
 ## Installation
 
+**1. Install Ollama**
+
+```bash
+# macOS (Homebrew)
+brew install ollama
+
+# or download the app at https://ollama.com/download
+```
+
+**2. Start Ollama and pull a model**
+
+```bash
+ollama serve          # start the local server
+ollama pull llama3.2  # download a model (~2GB)
+```
+
+**3. Clone this repo**
+
 ```bash
 git clone https://github.com/debugbae/eli5-anything.git
 cd eli5-anything
